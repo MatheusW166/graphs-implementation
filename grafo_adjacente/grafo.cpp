@@ -2,7 +2,7 @@
 #include "grafo.h"
 #include <string>
 
-Grafo::Grafo(int m, int n) : GrafoInterface(m, n)
+Grafo::Grafo(int m, int n) : IGrafo(m, n)
 {
     arestas.assign(m, vector<int>());
 }

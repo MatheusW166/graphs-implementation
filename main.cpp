@@ -16,8 +16,5 @@ int main(int argc, char **argv)
     cout << "Componentes: " << componentes << endl;
     grafo->print_vetores();
 
-    // cout << "Número de componentes: " << dfs(n, Grafo) << endl;
-    // imprimir_vetores(n);
-
     return 0;
 }

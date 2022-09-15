@@ -3,11 +3,11 @@
 
 #include <vector>
 #include <iostream>
-#include "..\interface\grafo_interface.h"
+#include "..\interfaces\i_grafo.h"
 
 using namespace std;
 
-class Grafo : virtual public GrafoInterface
+class Grafo : virtual public IGrafo
 {
 
 private:
